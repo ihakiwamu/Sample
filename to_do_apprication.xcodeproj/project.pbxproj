@@ -14,6 +14,7 @@
 		68FFB0AC21ACFC3400E9BB76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FFB0AA21ACFC3400E9BB76 /* LaunchScreen.storyboard */; };
 		68FFB0B721ACFC3400E9BB76 /* to_do_appricationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FFB0B621ACFC3400E9BB76 /* to_do_appricationTests.swift */; };
 		68FFB0C221ACFC3400E9BB76 /* to_do_appricationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FFB0C121ACFC3400E9BB76 /* to_do_appricationUITests.swift */; };
+		68FFB0D421AD0A5C00E9BB76 /* AddTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FFB0D321AD0A5C00E9BB76 /* AddTasks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		68FFB0BD21ACFC3400E9BB76 /* to_do_appricationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = to_do_appricationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68FFB0C121ACFC3400E9BB76 /* to_do_appricationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = to_do_appricationUITests.swift; sourceTree = "<group>"; };
 		68FFB0C321ACFC3400E9BB76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68FFB0D321AD0A5C00E9BB76 /* AddTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddTasks.swift; path = to_do_apprication/AddTasks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		68FFB09521ACFC3200E9BB76 = {
 			isa = PBXGroup;
 			children = (
+				68FFB0D321AD0A5C00E9BB76 /* AddTasks.swift */,
 				68FFB0A021ACFC3200E9BB76 /* to_do_apprication */,
 				68FFB0B521ACFC3400E9BB76 /* to_do_appricationTests */,
 				68FFB0C021ACFC3400E9BB76 /* to_do_appricationUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				68FFB0A421ACFC3200E9BB76 /* ViewController.swift in Sources */,
 				68FFB0A221ACFC3200E9BB76 /* AppDelegate.swift in Sources */,
+				68FFB0D421AD0A5C00E9BB76 /* AddTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
